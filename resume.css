@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto&display=swap');
- body{
+body{
         background-color:#f3def3;
         color:#0f010f ;
         /* font-family:Verdana, Geneva, Tahoma, sans-serif */
         font-family:"Roboto", sans-serif;
         font-weight: normal;
         font-size: 16px;
-  
- }
- .container{
         max-width: 650px;
         margin: auto;
- }
- .card-header{
+}
+
+.card-header{
         display:flex;
         align-items: flex-start;
-}
+      }
 
 img{
         width: 200px;
@@ -32,89 +30,85 @@ img{
         font-family: inherit;
         padding-left: 20px;
 }
-.card  {
+.card{
       
       padding-left: 90px;
       padding-bottom: 10px;
       border-radius: 20px;
-      
- }
+}
  
  
- .bg-rose{
+.bg-rose{
    background-color:#f0cef0;
 
-  }
-  .bg-rose li{
+}
+.bg-rose li{
 margin-bottom: 5px;
-  }
+}
    
- .bg-blue{ 
+.bg-blue{ 
   background-color: rgb(193, 203, 246);
   
 }
-  .bg-blue li{
+.bg-blue li{
     margin-bottom: 10px;
     border-bottom: 1px solid rgb(25, 28, 197);
     width: 70%;
-  }    
+}    
  
-  .bg-beige{
+.bg-beige{
       background-color: beige;
-  } 
-  .bg-beige li{
+} 
+.bg-beige li{
     margin-bottom: 5px;
-  }
-  .bg-green{
+}
+.bg-green{
     background-color: #edfadf;
-  }
-  .table {
+}
+.table {
     width: 100%;
    padding-left: 5px;
    margin: auto;
-  }
-  table td{
+}
+table td{
     padding-bottom: 5px;
-  }
-  .table td:nth-child(2),
-  .table td:nth-child(3){
+}
+.table td:nth-child(2),
+.table td:nth-child(3){
     color:#86898f;
-  }
+}
    
 a{
     text-decoration: none;
 }
-    a:hover{
+a:hover{
       font-size: 2rem;
       text-decoration: underline;
-    }
-    a:visited{
+}
+a:visited{
     color: rgb(102, 57, 121);
-    }
-    a:active{
+}
+a:active{
       color:greenyellow;
-    }
-   
-  .btn{
+}
+form{
+  color: grey;
+  font-family:"Roboto", sans-serif ;
+ text-align: center;
+}
+
+.block{
+  margin-bottom: 20px;
+}
+.btn{
       background-color:#111;
       padding: 15px 20px;
       color: #fff;
       border:none;
       cursor: pointer;
       border-radius: 5px;
-  }
+}
 .btn:hover{
     color:rgb(234, 31, 210);
 }
 
-
-form h3 {
-    text-align: center;
-    font-family: inherit;
-} 
-form{
-    color: grey;
-    font-family:"Roboto", sans-serif ;
-}
-  
- 
