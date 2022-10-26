@@ -2,7 +2,6 @@
 body{
         background-color:#f3def3;
         color:#0f010f ;
-        /* font-family:Verdana, Geneva, Tahoma, sans-serif */
         font-family:"Roboto", sans-serif;
         font-weight: normal;
         font-size: 16px;
@@ -10,10 +9,10 @@ body{
         margin: auto;
 }
 
-.card-header{
+.header{
         display:flex;
         align-items: flex-start;
-      }
+}
 
 img{
         width: 200px;
@@ -21,7 +20,7 @@ img{
         box-shadow:0px 0px 0px 0px rgb(0 0 0);
         padding-left: 10px;
 }
-.card-header h1{
+.header h1{
         padding:140px 20px 0px 50px;
         margin-bottom: 40px;
 }
@@ -35,6 +34,7 @@ img{
       padding-left: 90px;
       padding-bottom: 10px;
       border-radius: 20px;
+      margin-bottom: 20px;
 }
  
  
@@ -42,28 +42,27 @@ img{
    background-color:#f0cef0;
 
 }
-.bg-rose li{
-margin-bottom: 5px;
-}
-   
 .bg-blue{ 
   background-color: rgb(193, 203, 246);
-  
 }
 .bg-blue li{
-    margin-bottom: 10px;
-    border-bottom: 1px solid rgb(25, 28, 197);
+   border-bottom: 1px solid rgb(25, 28, 197);
     width: 70%;
 }    
  
 .bg-beige{
       background-color: beige;
 } 
-.bg-beige li{
-    margin-bottom: 5px;
-}
+
 .bg-green{
     background-color: #edfadf;
+}
+
+.bg-rose li,
+.bg-blue li,
+.bg-beige li,
+.bg-green li{
+  margin-bottom: 10px;
 }
 .table {
     width: 100%;
