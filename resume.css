@@ -11,13 +11,13 @@ body{
 
 .header{
         display:flex;
-        align-items: flex-start;
+        
 }
 
 img{
         width: 200px;
         border-radius: 28px;
-        box-shadow:0px 0px 0px 0px rgb(0 0 0);
+       
         padding-left: 10px;
         margin-top: 25px;
 }
@@ -26,6 +26,7 @@ img{
         margin:   40px;
 }
 .info{
+        text-indent: 30px;
         color: #0f010fa1;
         font-family: inherit;
         padding-left: 20px;
@@ -45,30 +46,30 @@ h2{
  h3{
   margin-left: 40px;
  }
-.bg-rose{
+.one{
    background-color:#f0cef0;
 
 }
-.bg-blue{ 
+.two{ 
   background-color: rgb(193, 203, 246);
 }
-.bg-blue li{
+.two li{
    border-bottom: 1px solid rgb(25, 28, 197);
     width: 70%;
 }    
  
-.bg-beige{
+.three{
       background-color: beige;
 } 
 
-.bg-green{
+.four{
     background-color: #edfadf;
 }
 
-.bg-rose li,
-.bg-blue li,
-.bg-beige li,
-.bg-green li{
+.one li,
+.two li,
+.three li,
+.four li{
   margin-bottom: 10px;
 }
 .table {
@@ -102,10 +103,17 @@ form{
   text-align: center;
   color:gray;
 }
-.block{
-  margin-bottom: 20px;
-}
 
+     
+form input[type="text"]{
+    margin-right: 15%;
+}
+  
+
+.name{
+  margin-right: 50px;
+  
+}
 .btn{
       background-color:#111;
       padding: 15px 20px;
@@ -114,7 +122,7 @@ form{
       cursor: pointer;
       border-radius: 5px;
       margin-top: 10px;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
       
 }
 .btn:hover{
